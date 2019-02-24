@@ -1,6 +1,4 @@
 let dbHelper = require("./dbHelper");
-let ncp = require('ncp');
-let path = require('path');
 
 async function isEmailExist({email, id = '', db}) {
     let query;
